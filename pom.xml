@@ -17,7 +17,9 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>User</module>
-    <module>Item</module>
+      <module>Inventory</module>
+      <module>Product</module>
+    <module>Order</module>
   </modules>
 
   <build>
