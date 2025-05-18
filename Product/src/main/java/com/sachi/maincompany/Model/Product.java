@@ -1,14 +1,20 @@
-package com.sachi.maincompany.Dto;
+package com.sachi.maincompany.Model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Entity
+@NoArgsConstructor
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
-public class UserDTO {
 
+public class Product {
+
+    @Id
     private String id;
     private String name;
+
 }

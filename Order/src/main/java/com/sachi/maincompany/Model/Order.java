@@ -11,10 +11,12 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 
-public class User {
+public class Order {
 
     @Id
     private String id;
-    private String name;
+    private String itemid;
+    private String itemname;
+    private String itemprice;
 
 }
